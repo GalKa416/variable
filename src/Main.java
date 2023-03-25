@@ -1,3 +1,5 @@
+import java.util.Locale;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
@@ -49,6 +51,8 @@ public class Main {
         tWork = time * people;
         System.out.println("Если в компании работает " + people + " человек, то всего " + tWork + " часов работы поделено между сотрудниками");
         byte pen = 1;
+        System.out.println(" Домашка по теме Переменные 2 часть");
+        System.out.println("задача 1");
         System.out.println("Значение переменной с типом byte равно " + pen);
         short apple = 10;
         System.out.println("Значение переменной с типом sort равно " + apple + "");
@@ -60,6 +64,7 @@ public class Main {
         System.out.println("Значение переменной с типом float равно " + m + "");
         double kg = 27.524;
         System.out.println("Значение переменной с типом double равно " + kg + "");
+
         float a = 27.12f;
         long b = 987678965549L;
         float c = 2.786f;
@@ -67,14 +72,16 @@ public class Main {
         short e = -159;
         short f = 27897;
         byte g = 67;
+        System.out.println(" задача 3");
         byte LP = 23;
         byte AS = 27;
         byte EA = 30;
         short p = 480;
         int list = p / (LP + AS + EA);
         System.out.println("На каждого ученика рассчитано " + list + " листов бумаги");
+        System.out.println(" задача 4");
         double BMin = 16 / 2;
-        double BMinOneTime = BMin * 10;
+        double BMinOneTime = BMin * 20;
         System.out.println("За 20 минут машина произвела " + BMinOneTime + " бутылок");
         double BMinTowTime = BMinOneTime * 3 * 24;
         System.out.println("В сутки машина произвела " + BMinTowTime + " бутылок");
@@ -82,36 +89,52 @@ public class Main {
         System.out.println("За трое суток машина произвела" + BMinTreeTime + " бутылок");
         double BMinFourTime = BMinTowTime * 30;
         System.out.println("За месяц машина произвела " + BMinFourTime+ " бутылок");
+        System.out.println(" задача 5");
         byte WallPaint = 120;
-        byte Klass = 120 / 6;
-        int WhitePaint = Klass * 2;
-        int BrownPoint = Klass * 4;
-        System.out.println("В школе, где " + Klass + " классов, нужно " + WhitePaint + " банок белой краски и " + BrownPoint + " банок коричневой");
-short MBanana = 5 * 80;
-short MMilk = 2 * 105;
-short MCream = 2 * 100;
-short MEgg = 2 * 70;
-int MCoctailG = MBanana + MMilk + MCream + MEgg;
+        byte WhitePaint = 2;
+        byte BrownPoint = 4;
+        int Class = 120 / (WhitePaint + BrownPoint);
+        int BrownPointALL = Class * 4;
+        int WallPaintall = Class *2;
+        System.out.println("В школе, где "+ Class + " классов, нужно "+ WallPaintall+ " банок белой краски и "+ BrownPointALL +" банок коричневой");
+
+        System.out.println(" задача 6");
+        int Banana = 5;
+int Milk = 2;
+int Crefm = 2;
+int egg = 4;
+int MBanana = 80;
+int MMilk = 105;
+int MCream = 100;
+int MEgg = 70;
+int MCoctailG = MBanana * Banana + MMilk * Milk + MCream * Crefm + MEgg * egg;
 float MCoctalKg = MCoctailG / 1000f;
 System.out.println("Полный вес спортивного завтрака спортсмена составляет " + MCoctailG + " г или " + MCoctalKg + " кг");
+System.out.println(" задача 7");
 float MAll = 7.000f;
 float OneDayMin = 0.250f;
 float OneDayMax = 0.500f;
 float DayMax = MAll / OneDayMin;
 float DayMin = MAll / OneDayMax;
-float DayAverage = (DayMax + DayMin) / 2f;
-System.out.println("Если спортсмен будет сбрасывать по  " + OneDayMin + " кг в день, то он придет к результату за " + DayMax + " дней, если он будет худеть на " + OneDayMax + " кг в день, то похудеет на " + MAll + " кг за " + DayMin + " дней. В среднем спортсмен достигент результата за " + DayAverage + " дней");
+float AveragG = (OneDayMax + OneDayMin) / 2f;
+float DayAverage = 7 / AveragG;
+System.out.println("Минимальное количество дней дла похудения"+DayMin);
+System.out.println("Ммаксимальное количество дней дла похудения"+DayMax);
+System.out.printf("Среднее количество дней дла похудения %.2f%n",DayAverage);
+System.out.println(" задача 8");
+double Bonus = 0.1;
+byte annual = 12;
 double Masha = 67760.000;
-double MashaBonus = Masha * 1.1;
-double DiffM = (MashaBonus - Masha) * 12;
+double MashaBonus = Masha + Bonus * Masha;
+double DiffM = (MashaBonus - Masha) * annual;
 System.out.println("Теперь Маша получает " + MashaBonus+ " рублей. Годовой доход Маши вырос на " + DiffM +" рублей");
 double Den = 83690;
-double DenBonus = Den * 1.1;
-double DiffD = (DenBonus - Den) * 12;
+double DenBonus = Den + Den * Bonus;
+double DiffD = (DenBonus - Den) * annual;
 System.out.println("Теперь Денис получает " + DenBonus + " рублей. годовой доход вырос на " + DiffD + " рублей");
 double Kriss = 76230;
-double KrissBonus = Kriss * 1.1;
-double DiffK = (KrissBonus - Kriss) * 12;
+double KrissBonus = Kriss + Kriss * Bonus;
+double DiffK = (KrissBonus - Kriss) * annual;
 System.out.println("Теперь Кристина получает " + KrissBonus +" рублей. Годовой доход вырос на " + DiffK +" рублей");
     }
 }
