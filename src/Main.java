@@ -94,9 +94,24 @@ short MEgg = 2 * 70;
 int MCoctailG = MBanana + MMilk + MCream + MEgg;
 float MCoctalKg = MCoctailG / 1000f;
 System.out.println("Полный вес спортивного завтрака спортсмена составляет " + MCoctailG + " г или " + MCoctalKg + " кг");
-
-
-
-
+float MAll = 7.000f;
+float OneDayMin = 0.250f;
+float OneDayMax = 0.500f;
+float DayMax = MAll / OneDayMin;
+float DayMin = MAll / OneDayMax;
+float DayAverage = (DayMax + DayMin) / 2f;
+System.out.println("Если спортсмен будет сбрасывать по  " + OneDayMin + " кг в день, то он придет к результату за " + DayMax + " дней, если он будет худеть на " + OneDayMax + " кг в день, то похудеет на " + MAll + " кг за " + DayMin + " дней. В среднем спортсмен достигент результата за " + DayAverage + " дней");
+double Masha = 67760.000;
+double MashaBonus = Masha * 1.1;
+double DiffM = (MashaBonus - Masha) * 12;
+System.out.println("Теперь Маша получает " + MashaBonus+ " рублей. Годовой доход Маши вырос на " + DiffM +" рублей");
+double Den = 83690;
+double DenBonus = Den * 1.1;
+double DiffD = (DenBonus - Den) * 12;
+System.out.println("Теперь Денис получает " + DenBonus + " рублей. годовой доход вырос на " + DiffD + " рублей");
+double Kriss = 76230;
+double KrissBonus = Kriss * 1.1;
+double DiffK = (KrissBonus - Kriss) * 12;
+System.out.println("Теперь Кристина получает " + KrissBonus +" рублей. Годовой доход вырос на " + DiffK +" рублей");
     }
 }
