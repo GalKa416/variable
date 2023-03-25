@@ -82,5 +82,21 @@ public class Main {
         System.out.println("За трое суток машина произвела" + BMinTreeTime + " бутылок");
         double BMinFourTime = BMinTowTime * 30;
         System.out.println("За месяц машина произвела " + BMinFourTime+ " бутылок");
+        byte WallPaint = 120;
+        byte Klass = 120 / 6;
+        int WhitePaint = Klass * 2;
+        int BrownPoint = Klass * 4;
+        System.out.println("В школе, где " + Klass + " классов, нужно " + WhitePaint + " банок белой краски и " + BrownPoint + " банок коричневой");
+short MBanana = 5 * 80;
+short MMilk = 2 * 105;
+short MCream = 2 * 100;
+short MEgg = 2 * 70;
+int MCoctailG = MBanana + MMilk + MCream + MEgg;
+float MCoctalKg = MCoctailG / 1000f;
+System.out.println("Полный вес спортивного завтрака спортсмена составляет " + MCoctailG + " г или " + MCoctalKg + " кг");
+
+
+
+
     }
 }
