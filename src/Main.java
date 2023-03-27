@@ -1,5 +1,3 @@
-import java.util.Locale;
-
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
@@ -88,53 +86,129 @@ public class Main {
         double BMinTreeTime = BMinTowTime * 3;
         System.out.println("За трое суток машина произвела" + BMinTreeTime + " бутылок");
         double BMinFourTime = BMinTowTime * 30;
-        System.out.println("За месяц машина произвела " + BMinFourTime+ " бутылок");
+        System.out.println("За месяц машина произвела " + BMinFourTime + " бутылок");
         System.out.println(" задача 5");
         byte WallPaint = 120;
         byte WhitePaint = 2;
         byte BrownPoint = 4;
         int Class = 120 / (WhitePaint + BrownPoint);
         int BrownPointALL = Class * 4;
-        int WallPaintall = Class *2;
-        System.out.println("В школе, где "+ Class + " классов, нужно "+ WallPaintall+ " банок белой краски и "+ BrownPointALL +" банок коричневой");
+        int WallPaintall = Class * 2;
+        System.out.println("В школе, где " + Class + " классов, нужно " + WallPaintall + " банок белой краски и " + BrownPointALL + " банок коричневой");
 
         System.out.println(" задача 6");
         int Banana = 5;
-int Milk = 2;
-int Crefm = 2;
-int egg = 4;
-int MBanana = 80;
-int MMilk = 105;
-int MCream = 100;
-int MEgg = 70;
-int MCoctailG = MBanana * Banana + MMilk * Milk + MCream * Crefm + MEgg * egg;
-float MCoctalKg = MCoctailG / 1000f;
-System.out.println("Полный вес спортивного завтрака спортсмена составляет " + MCoctailG + " г или " + MCoctalKg + " кг");
-System.out.println(" задача 7");
-float MAll = 7.000f;
-float OneDayMin = 0.250f;
-float OneDayMax = 0.500f;
-float DayMax = MAll / OneDayMin;
-float DayMin = MAll / OneDayMax;
-float AveragG = (OneDayMax + OneDayMin) / 2f;
-float DayAverage = 7 / AveragG;
-System.out.println("Минимальное количество дней дла похудения"+DayMin);
-System.out.println("Ммаксимальное количество дней дла похудения"+DayMax);
-System.out.printf("Среднее количество дней дла похудения %.2f%n",DayAverage);
-System.out.println(" задача 8");
-double Bonus = 0.1;
-byte annual = 12;
-double Masha = 67760.000;
-double MashaBonus = Masha + Bonus * Masha;
-double DiffM = (MashaBonus - Masha) * annual;
-System.out.println("Теперь Маша получает " + MashaBonus+ " рублей. Годовой доход Маши вырос на " + DiffM +" рублей");
-double Den = 83690;
-double DenBonus = Den + Den * Bonus;
-double DiffD = (DenBonus - Den) * annual;
-System.out.println("Теперь Денис получает " + DenBonus + " рублей. годовой доход вырос на " + DiffD + " рублей");
-double Kriss = 76230;
-double KrissBonus = Kriss + Kriss * Bonus;
-double DiffK = (KrissBonus - Kriss) * annual;
-System.out.println("Теперь Кристина получает " + KrissBonus +" рублей. Годовой доход вырос на " + DiffK +" рублей");
+        int Milk = 2;
+        int Crefm = 2;
+        int egg = 4;
+        int MBanana = 80;
+        int MMilk = 105;
+        int MCream = 100;
+        int MEgg = 70;
+        int MCoctailG = MBanana * Banana + MMilk * Milk + MCream * Crefm + MEgg * egg;
+        float MCoctalKg = MCoctailG / 1000f;
+        System.out.println("Полный вес спортивного завтрака спортсмена составляет " + MCoctailG + " г или " + MCoctalKg + " кг");
+        System.out.println(" задача 7");
+        float MAll = 7.000f;
+        float OneDayMin = 0.250f;
+        float OneDayMax = 0.500f;
+        float DayMax = MAll / OneDayMin;
+        float DayMin = MAll / OneDayMax;
+        float AveragG = (OneDayMax + OneDayMin) / 2f;
+        float DayAverage = 7 / AveragG;
+        System.out.println("Минимальное количество дней дла похудения" + DayMin);
+        System.out.println("Ммаксимальное количество дней дла похудения" + DayMax);
+        System.out.printf("Среднее количество дней дла похудения %.2f%n", DayAverage);
+        System.out.println(" задача 8");
+        double Bonus = 0.1;
+        byte annual = 12;
+        double Masha = 67760.000;
+        double MashaBonus = Masha + Bonus * Masha;
+        double DiffM = (MashaBonus - Masha) * annual;
+        System.out.println("Теперь Маша получает " + MashaBonus + " рублей. Годовой доход Маши вырос на " + DiffM + " рублей");
+        double Den = 83690;
+        double DenBonus = Den + Den * Bonus;
+        double DiffD = (DenBonus - Den) * annual;
+        System.out.println("Теперь Денис получает " + DenBonus + " рублей. годовой доход вырос на " + DiffD + " рублей");
+        double Kriss = 76230;
+        double KrissBonus = Kriss + Kriss * Bonus;
+        double DiffK = (KrissBonus - Kriss) * annual;
+        System.out.println("Теперь Кристина получает " + KrissBonus + " рублей. Годовой доход вырос на " + DiffK + " рублей");
+
+        System.out.println("Условный оператор. Урок 1");
+        //task 1;
+        System.out.println("Задача 1");
+        int age = 17;
+        if (age >= 18) {
+            System.out.println("Если возраст человека равен " + age);
+        } else {
+            System.out.println("Если возарст человека равен " + age + ", то он несовершеннолетний, придется подождать");
+        }
+//task 2;
+        System.out.println("Задача 2");
+        int temp = 6;
+        if (temp <= 5) {
+            System.out.println("На улице холодно, " + temp + " градуса, нужно надеть шапку");
+        } else {
+            System.out.println("Сегодня на улице тепло, " + temp + " гадусов, можно идти без шапки");
+        }
+//task 3;
+        System.out.println("Задача 3");
+        int movementSpeed = 60;
+        if (movementSpeed <= 60) {
+            System.out.println("Если скорость " + movementSpeed + " км/час, можете ехать спокойно");
+        } else {
+            System.out.println("Если скорость " + movementSpeed + " км/час, придется заплатить штраф");
+        }
+        //task 4;
+        System.out.println("Задача 4");
+        int PersonsAge = 35;
+        if (PersonsAge >= 2 && PersonsAge <= 6) {
+            System.out.println("Если возраст человека равен " + PersonsAge + ", то ему нужно ходить в детский сад");
+        } else if (PersonsAge >= 7 && PersonsAge <= 18) {
+            System.out.println("Если возраст человека равен " + PersonsAge + ", то ему нужно ходить в школу");
+        } else if (PersonsAge > 18 && PersonsAge <= 24) {
+            System.out.println("Если возраст человека равен " + PersonsAge + ", то его место в университете");
+        } else if (PersonsAge > 24) {
+            System.out.println("Если возраст человека равен " + PersonsAge + ",то ему пора ходить на работу");
+        }
+//task 5;
+        System.out.println("Задача 5");
+        int ChildsAge = 3;
+        if (ChildsAge < 5) {
+            System.out.println("Если возраст ребенка " + ChildsAge + "года, то ему нельзя кататься на атракционе");
+        } else if (ChildsAge >= 5 && ChildsAge <= 14) {
+            System.out.println("Если возраст человека равен " + ChildsAge + ", то ему можно кататься на атракционе только в сопровождении взрослого");
+        } else if (ChildsAge > 14) {
+            System.out.println("Если возраст ребенка " + ChildsAge + "то ему можно кататься на атракционе без сопровождения взрослых");
+        }
+        //task 6;
+        System.out.println("Задача 6");
+        int NumberOfPassengers = 63;
+        if (NumberOfPassengers < 60) {
+            System.out.println("В вагоне есть сидячее место");
+        } else if (NumberOfPassengers >= 60 && NumberOfPassengers < 102) {
+            System.out.println("В вагоне сидячих мест нет, но есть стоячее");
+        } else if (NumberOfPassengers >= 102) {
+            System.out.println("В вагоне мест нет");
+        }
+
+        //task 7;
+        System.out.println("Задача 7");
+        int one = 3;
+        int two = 5;
+        int three = 7;
+        if (one > two && one > three) {
+            System.out.println("Самое большее число " + one);
+        } else if (two > one && two > three) {
+            System.out.println("Самое большее число " + two);
+        } else if (three > two && three >one) {
+            System.out.println("Самое большее число " + three);
+
     }
+
 }
+
+}
+
+
