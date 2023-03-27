@@ -154,6 +154,13 @@ public class Main {
         } else {
             System.out.println("Сегодня на улице тепло, " + temp + " гадусов, можно идти без шапки");
         }
-
+//task 3;
+        System.out.println("Задача 3");
+        int movementSpeed = 60;
+        if (movementSpeed <= 60) {
+            System.out.println("Если скорость " + movementSpeed + " км/час, можете ехать спокойно");
+        } else {
+            System.out.println("Если скорость " + movementSpeed + " км/час, придется заплатить штраф");
+        }
     }
 }
