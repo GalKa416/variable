@@ -162,5 +162,20 @@ public class Main {
         } else {
             System.out.println("Если скорость " + movementSpeed + " км/час, придется заплатить штраф");
         }
+        //task 4;
+        System.out.println("Задача 4");
+        int PersonsAge = 35;
+        if (PersonsAge>=2 && PersonsAge <=6) {
+            System.out.println("Если возраст человека равен " + PersonsAge + ", то ему нужно ходить в детский сад");
+        }else
+        if (PersonsAge>=7 && PersonsAge <=18) {
+            System.out.println("Если возраст человека равен " + PersonsAge + ", то ему нужно ходить в школу");
+        }else
+        if (PersonsAge>18 && PersonsAge <=24) {
+            System.out.println("Если возраст человека равен " + PersonsAge + ", то его место в университете");
+        }else
+            if (PersonsAge>24 ) {System.out.println("Если возраст человека равен " + PersonsAge + ",то ему пора ходить на работу");
+        }
+
     }
 }
