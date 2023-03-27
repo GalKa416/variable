@@ -88,63 +88,72 @@ public class Main {
         double BMinTreeTime = BMinTowTime * 3;
         System.out.println("За трое суток машина произвела" + BMinTreeTime + " бутылок");
         double BMinFourTime = BMinTowTime * 30;
-        System.out.println("За месяц машина произвела " + BMinFourTime+ " бутылок");
+        System.out.println("За месяц машина произвела " + BMinFourTime + " бутылок");
         System.out.println(" задача 5");
         byte WallPaint = 120;
         byte WhitePaint = 2;
         byte BrownPoint = 4;
         int Class = 120 / (WhitePaint + BrownPoint);
         int BrownPointALL = Class * 4;
-        int WallPaintall = Class *2;
-        System.out.println("В школе, где "+ Class + " классов, нужно "+ WallPaintall+ " банок белой краски и "+ BrownPointALL +" банок коричневой");
+        int WallPaintall = Class * 2;
+        System.out.println("В школе, где " + Class + " классов, нужно " + WallPaintall + " банок белой краски и " + BrownPointALL + " банок коричневой");
 
         System.out.println(" задача 6");
         int Banana = 5;
-int Milk = 2;
-int Crefm = 2;
-int egg = 4;
-int MBanana = 80;
-int MMilk = 105;
-int MCream = 100;
-int MEgg = 70;
-int MCoctailG = MBanana * Banana + MMilk * Milk + MCream * Crefm + MEgg * egg;
-float MCoctalKg = MCoctailG / 1000f;
-System.out.println("Полный вес спортивного завтрака спортсмена составляет " + MCoctailG + " г или " + MCoctalKg + " кг");
-System.out.println(" задача 7");
-float MAll = 7.000f;
-float OneDayMin = 0.250f;
-float OneDayMax = 0.500f;
-float DayMax = MAll / OneDayMin;
-float DayMin = MAll / OneDayMax;
-float AveragG = (OneDayMax + OneDayMin) / 2f;
-float DayAverage = 7 / AveragG;
-System.out.println("Минимальное количество дней дла похудения"+DayMin);
-System.out.println("Ммаксимальное количество дней дла похудения"+DayMax);
-System.out.printf("Среднее количество дней дла похудения %.2f%n",DayAverage);
-System.out.println(" задача 8");
-double Bonus = 0.1;
-byte annual = 12;
-double Masha = 67760.000;
-double MashaBonus = Masha + Bonus * Masha;
-double DiffM = (MashaBonus - Masha) * annual;
-System.out.println("Теперь Маша получает " + MashaBonus+ " рублей. Годовой доход Маши вырос на " + DiffM +" рублей");
-double Den = 83690;
-double DenBonus = Den + Den * Bonus;
-double DiffD = (DenBonus - Den) * annual;
-System.out.println("Теперь Денис получает " + DenBonus + " рублей. годовой доход вырос на " + DiffD + " рублей");
-double Kriss = 76230;
-double KrissBonus = Kriss + Kriss * Bonus;
-double DiffK = (KrissBonus - Kriss) * annual;
-System.out.println("Теперь Кристина получает " + KrissBonus +" рублей. Годовой доход вырос на " + DiffK +" рублей");
+        int Milk = 2;
+        int Crefm = 2;
+        int egg = 4;
+        int MBanana = 80;
+        int MMilk = 105;
+        int MCream = 100;
+        int MEgg = 70;
+        int MCoctailG = MBanana * Banana + MMilk * Milk + MCream * Crefm + MEgg * egg;
+        float MCoctalKg = MCoctailG / 1000f;
+        System.out.println("Полный вес спортивного завтрака спортсмена составляет " + MCoctailG + " г или " + MCoctalKg + " кг");
+        System.out.println(" задача 7");
+        float MAll = 7.000f;
+        float OneDayMin = 0.250f;
+        float OneDayMax = 0.500f;
+        float DayMax = MAll / OneDayMin;
+        float DayMin = MAll / OneDayMax;
+        float AveragG = (OneDayMax + OneDayMin) / 2f;
+        float DayAverage = 7 / AveragG;
+        System.out.println("Минимальное количество дней дла похудения" + DayMin);
+        System.out.println("Ммаксимальное количество дней дла похудения" + DayMax);
+        System.out.printf("Среднее количество дней дла похудения %.2f%n", DayAverage);
+        System.out.println(" задача 8");
+        double Bonus = 0.1;
+        byte annual = 12;
+        double Masha = 67760.000;
+        double MashaBonus = Masha + Bonus * Masha;
+        double DiffM = (MashaBonus - Masha) * annual;
+        System.out.println("Теперь Маша получает " + MashaBonus + " рублей. Годовой доход Маши вырос на " + DiffM + " рублей");
+        double Den = 83690;
+        double DenBonus = Den + Den * Bonus;
+        double DiffD = (DenBonus - Den) * annual;
+        System.out.println("Теперь Денис получает " + DenBonus + " рублей. годовой доход вырос на " + DiffD + " рублей");
+        double Kriss = 76230;
+        double KrissBonus = Kriss + Kriss * Bonus;
+        double DiffK = (KrissBonus - Kriss) * annual;
+        System.out.println("Теперь Кристина получает " + KrissBonus + " рублей. Годовой доход вырос на " + DiffK + " рублей");
 
-        System.out.println( "Условный оператор. Урок 1");
+        System.out.println("Условный оператор. Урок 1");
         //task 1;
-        System.out.println( "Задача 1");
+        System.out.println("Задача 1");
         int age = 17;
-        if (age >= 18)
-        {System.out.println("Если возраст человека равен " + age );
-        } else {System.out.println("Если возарст человека равен " + age + ", то он несовершеннолетний, придется подождать");}
+        if (age >= 18) {
+            System.out.println("Если возраст человека равен " + age);
+        } else {
+            System.out.println("Если возарст человека равен " + age + ", то он несовершеннолетний, придется подождать");
+        }
 //task 2;
-        System.out.println( "Задача 2");
+        System.out.println("Задача 2");
+        int temp = 6;
+        if (temp <= 5) {
+            System.out.println("На улице холодно, " + temp + " градуса, нужно надеть шапку");
+        } else {
+            System.out.println("Сегодня на улице тепло, " + temp + " гадусов, можно идти без шапки");
+        }
+
     }
 }
