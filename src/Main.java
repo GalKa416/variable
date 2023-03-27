@@ -188,5 +188,18 @@ public class Main {
             if (ChildsAge >14)
             {System.out.println("Если возраст ребенка " + ChildsAge +  "то ему можно кататься на атракционе без сопровождения взрослых");
     }
+        //task 5;
+        System.out.println("Задача 5");
+        int NumberOfPassengers = 63;
+        if (NumberOfPassengers <60) {
+            System.out.println( "В вагоне есть сидячее место");
+        }else
+        if (NumberOfPassengers>=60 && NumberOfPassengers <102)
+        {System.out.println("В вагоне сидячих мест нет, но есть стоячее");
+        }else
+        if (NumberOfPassengers >=102) {
+            System.out.println( "В вагоне мест нет");
+        }
+
     }
 }
