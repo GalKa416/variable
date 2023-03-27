@@ -136,5 +136,15 @@ double Kriss = 76230;
 double KrissBonus = Kriss + Kriss * Bonus;
 double DiffK = (KrissBonus - Kriss) * annual;
 System.out.println("Теперь Кристина получает " + KrissBonus +" рублей. Годовой доход вырос на " + DiffK +" рублей");
+
+        System.out.println( "Условный оператор. Урок 1");
+        //task 1;
+        System.out.println( "Задача 1");
+        int age = 17;
+        if (age >= 18)
+        {System.out.println("Если возраст человека равен " + age );
+        } else {System.out.println("Если возарст человека равен " + age + ", то он несовершеннолетний, придется подождать");}
+//task 2;
+        System.out.println( "Задача 2");
     }
 }
