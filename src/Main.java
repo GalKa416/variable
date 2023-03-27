@@ -176,6 +176,17 @@ public class Main {
         }else
             if (PersonsAge>24 ) {System.out.println("Если возраст человека равен " + PersonsAge + ",то ему пора ходить на работу");
         }
-
+//task 5;
+        System.out.println("Задача 5");
+        int ChildsAge = 3;
+        if (ChildsAge <5) {
+                       System.out.println( "Если возраст ребенка "+ChildsAge+ "года, то ему нельзя кататься на атракционе");
+}else
+            if (ChildsAge>=5 && ChildsAge <=14) {
+                System.out.println("Если возраст человека равен " + ChildsAge + ", то ему можно кататься на атракционе только в сопровождении взрослого");
+            }else
+            if (ChildsAge >14)
+            {System.out.println("Если возраст ребенка " + ChildsAge +  "то ему можно кататься на атракционе без сопровождения взрослых");
+    }
     }
 }
