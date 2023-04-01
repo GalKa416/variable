@@ -28,14 +28,23 @@ public class Main {
         //task 2;
 
         // task 3;
-        System.out.println("Задача 3");
-        int year = 2020;
-        if (year % 4 == 0) {
-            System.out.println("Год является високосным");
 
-        } else {
-            System.out.println("Год не является високосным");
 
+        // tasr 4;
+        System.out.println("Задача 4");
+        int deliveryDistance = 95;
+        int deliveryTime = 1;
+        if (deliveryDistance <= 20) {
+            System.out.println("Доставка будет в течении " + deliveryTime + " суток");
+        } else if (deliveryDistance > 20 && deliveryDistance <= 60) {
+            System.out.println("Доставка будет в течении " + deliveryTime + 1 + " суток");
+        }else if (deliveryDistance > 60 && deliveryDistance <= 100) {
+            System.out.println("Доставка будет в течении " + deliveryTime + 2 + " суток");
+        }else if (deliveryDistance > 100 ) {
+            System.out.println("Доставки нет");
         }
     }
 }
+
+
+
