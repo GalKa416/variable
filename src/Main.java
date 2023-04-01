@@ -22,7 +22,13 @@ public class Main {
 
         // task 3;
         System.out.println("Задача 3");
-    }
+        int year = 2000;
+        if (year % 4 == 0 && year % 100!=0 || year % 400==0) {System.out.println("Год является високосным");}
+        else System.out.println("Год не является високосным");
+
+        //task 4;
+        System.out.println("Задача 4");
+     }
 }
 
 
