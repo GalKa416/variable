@@ -202,13 +202,40 @@ public class Main {
             System.out.println("Самое большее число " + one);
         } else if (two > one && two > three) {
             System.out.println("Самое большее число " + two);
-        } else if (three > two && three >one) {
+        } else if (three > two && three > one) {
             System.out.println("Самое большее число " + three);
 
+        }
+        System.out.println("Условный оператор. Урок 2");
+        //task 1;
+        System.out.println("Задача 1");
+        int clientOS = 1;
+        if (clientOS == 1) {
+            System.out.println(" Установите версию приложения для Android по ссылке");
+        } else if (clientOS == 0) {
+            System.out.println("Установите версию приложения для iOS по ссылке");
+        }
+        //task 2;
+        System.out.println("Задача 2");
+        int ClientOS = 1;
+        int clientDeviceYear = 2014;
+        if (ClientOS == 1) {
+            if (clientDeviceYear < 2015)
+                System.out.println("Установите облегченную версию приложения для Android по ссылке");
+        } else {
+            System.out.println(" Установите версию приложения для Android по ссылке");
+            if (ClientOS == 0) {
+                if (clientDeviceYear < 2015)
+                    System.out.println("Установите облегченную версию приложения для iOS по ссылке");
+                System.out.println("Задача 3");
+            } else {
+                System.out.println("Установите версию приложения для iOS по ссылке");
+                System.out.println("Задача 3");
+            }
+            // task 3;
+            System.out.println("Задача 3");
+
+
+        }
     }
-
 }
-
-}
-
-
