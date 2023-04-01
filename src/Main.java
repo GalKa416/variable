@@ -31,6 +31,35 @@ public class Main {
         else if (deliveryDistance>20 && deliveryDistance <= 60) {System.out.println("Доставка будет в течении "+deliveryTime*2+ " суток");}
         else if (deliveryDistance > 60 && deliveryDistance <=100) {System.out.println("Доставка будет в течении " + deliveryTime*3 + " суток");}
         else if (deliveryDistance>100) {System.out.println("Доставки не будет");}
+        //task 5;
+        System.out.println("Задача 5");
+        int  monthNumber = 5;
+        switch (monthNumber) {
+            case 12:
+            case 1:
+            case 2:
+                System.out.println("Это зимний месяц");
+                break;
+            case 3:
+            case 4:
+            case 5:
+                System.out.println("Это весенний месяц");
+                break;
+            case 6:
+            case 7:
+            case 8:
+                System.out.println("Это летний месяц");
+                break;
+            case 9:
+            case 10:
+            case 11:
+                System.out.println("Это осенний месяц");
+                break;
+            default:
+                System.out.println("Некорректный номер месяца");
+        }
+
+
      }
 }
 
