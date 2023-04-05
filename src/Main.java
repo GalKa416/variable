@@ -49,5 +49,20 @@ public class Main {
             }
 
         }
+        //task 6
+        System.out.println("Задача 6");
+        int depositVasiliy = 15000;
+        int accumulationVasiliy = 0;
+        int k = 0;
+        while ( k < 9*12) {
+            accumulationVasiliy = accumulationVasiliy + accumulationVasiliy / 100 * 7;
+            accumulationVasiliy = accumulationVasiliy + depositVasiliy;
+            k=k+1;
+
+            if (k % 6 == 0) {
+                System.out.println("Месяц " + k + " сумма " + accumulationVasiliy);
+            }
+
+        }
     }
 }
