@@ -54,15 +54,22 @@ public class Main {
         int depositVasiliy = 15000;
         int accumulationVasiliy = 0;
         int k = 0;
-        while ( k < 9*12) {
+        while (k < 9 * 12) {
             accumulationVasiliy = accumulationVasiliy + accumulationVasiliy / 100 * 7;
             accumulationVasiliy = accumulationVasiliy + depositVasiliy;
-            k=k+1;
+            k = k + 1;
 
             if (k % 6 == 0) {
                 System.out.println("Месяц " + k + " сумма " + accumulationVasiliy);
             }
 
+        }
+        //task 7
+        System.out.println("Задача 7");
+        int friday = 4;
+        while (friday <= 31) {
+            friday = friday+7;
+            System.out.println("Сегодня пятница " + friday+ "-е число. Необходимо подготовить отчет");
         }
     }
 }
