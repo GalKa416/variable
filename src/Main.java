@@ -21,6 +21,17 @@ public class Main {
         a=a+1; System.out.print (" "+ a+" " );}
         System.out.println();
         for (int c = 10; c>0;c=c-1) {System.out.print (" "+ c +" " );}
+//task 3;
+        System.out.println("Задача 3");
+        int population = 12_000_000;
+       int fertility = 17;
+       int mortality = 8;
+       int year = 0;
+       while (year<12) {
+           year = year +1;
+           population = population + (fertility-mortality)*population/1000; System.out.println( "Год " + year+ " численность населения составляет "+population);
+       }
+
 
     }
 }
