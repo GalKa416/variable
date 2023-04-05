@@ -35,6 +35,11 @@ public class Main {
         }
         //task 7;
         System.out.println("Задача 7");
+        for (int i = 7; i <= 98; i = i + 7) {
+            System.out.println(" Число " + i);
+        }
+        //task 8;
+        System.out.println("Задача 8");
         int month;
         int amountOfSavings;
         for (month  = 1, amountOfSavings  = 29000; month <= 12; month = month + 1, amountOfSavings = amountOfSavings + 29000)
