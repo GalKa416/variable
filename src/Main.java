@@ -43,10 +43,13 @@ public class Main {
         int month;
         int amountOfSavings;
         for (month  = 1, amountOfSavings  = 29000; month <= 12; month = month + 1, amountOfSavings = amountOfSavings + 29000)
+        { System.out.println("Месяц " + month+ " сумма накоплений равна " + amountOfSavings + " рублей.");
+        }
+        //task 9;
+        System.out.println("Задача 8");
 
-
-        {
-            System.out.println("Месяц " + month+ " сумма накоплений равна " + amountOfSavings + " рублей.");
+        for (month  = 1, amountOfSavings  = 29000; month <= 12; month = month + 1, amountOfSavings = (int) (amountOfSavings*1.1 + 29000))
+        { System.out.println("Месяц " + month+ " сумма накоплений равна " + amountOfSavings + " рублей.");
         }
     }
 }
