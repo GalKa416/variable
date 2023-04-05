@@ -2,76 +2,83 @@ public class Main {
     public static void main(String[] args) {
 
 
-        System.out.println("Циклы");
+        System.out.println("Циклы 2");
         //task 1;
         System.out.println("Задача 1");
-        for (int i = 0; i <= 10; i = i + 1) {
-            System.out.println(" Число " + i);
+        int salary = 15000;
+        int total = 0;
+        int i = 0;
+        while (total < 2_459_000) {
+            total = total + salary;
+            i = i + 1;
+            System.out.println("Месяц  " + i + ", сумма накоплений равна: " + total);
         }
 //task 2;
         System.out.println("Задача 2");
-        for (int i = 10; i <= 10 && i >= 1; i = i - 1) {
-            System.out.println(" Число " + i);
+        int a = 0;
+        while (a < 10) {
+            a = a + 1;
+            System.out.print(" " + a + " ");
         }
-        //task 3;
+        System.out.println();
+        for (int c = 10; c > 0; c = c - 1) {
+            System.out.print(" " + c + " ");
+        }
+//task 3;
         System.out.println("Задача 3");
-        for (int i = 0; i <= 17; i = i + 2) {
-            System.out.println(" Число " + i);
+        int population = 12_000_000;
+        int fertility = 17;
+        int mortality = 8;
+        int year = 0;
+        while (year < 12) {
+            year = year + 1;
+            population = population + (fertility - mortality) * population / 1000;
+            System.out.println("Год " + year + " численность населения составляет " + population);
         }
-        //task 4;
-        System.out.println("Задача 4");
-        for (int i = 10; i <= 10 && i >= -10; i = i - 1) {
-            System.out.println(" Число " + i);
+//task 4;5
+        System.out.println("Задача 4.5");
+        int deposit = 15000;
+        int accumulation = 0;
+        int n = 0;
+        for (; accumulation < 12_000_000; n++) {
+            accumulation = accumulation + accumulation / 100 * 7;
+            accumulation = accumulation + deposit;
+
+            if (n % 6 == 0) {
+                System.out.println("Месяц " + n + " сумма " + accumulation);
+            }
+
         }
-//task 5;
-        System.out.println("Задача 5");
-        for (int i = 1904; i <= 2096; i = i + 4) {
-            System.out.println(+i + " год является високосным. ");
-        }
-        //task 6;
+        //task 6
         System.out.println("Задача 6");
-        for (int i = 1; i <= 512; i = i * 2) {
-            System.out.println(" Число " + i);
+        int depositVasiliy = 15000;
+        int accumulationVasiliy = 0;
+        int k = 0;
+        while (k < 9 * 12) {
+            accumulationVasiliy = accumulationVasiliy + accumulationVasiliy / 100 * 7;
+            accumulationVasiliy = accumulationVasiliy + depositVasiliy;
+            k = k + 1;
+
+            if (k % 6 == 0) {
+                System.out.println("Месяц " + k + " сумма " + accumulationVasiliy);
+            }
+
         }
-        //task 7;
+        //task 7
         System.out.println("Задача 7");
-        for (int i = 7; i <= 98; i = i + 7) {
-            System.out.println(" Число " + i);
+        int friday = 4;
+        while (friday <= 31) {
+            friday = friday+7;
+            System.out.println("Сегодня пятница " + friday+ "-е число. Необходимо подготовить отчет");
         }
-        //task 8;
+        //task 8
         System.out.println("Задача 8");
-        int total = 0;
-
-        int amountOfSavings = 29000;
-        for (int z  = 0; z < 12; z++){
-            total = total + amountOfSavings;}
-
-                        System.out.println("сумма накоплений равна " + total + " рублей.");
-
-        //task 9;
-        System.out.println("Задача 9");
-        for (int z  = 0; z <= 12; z++){
-            total = total + total/100;
-            total = total + amountOfSavings;
-            System.out.println("Месяц " + z + " Итого " + total);
-        }
-        System.out.println("сумма накоплений равна " + total + " рублей.");
-
-
-        //task 10;
-        System.out.println("Задача 10");
-        int a;
-        int b = 2;
-        for (int m  = 1; m <= 10;m++ ){
-            a=m*b;
-        System.out.println(b+" * "+m+" =" + a);}
-
-
-
-
+        int thisYear = 2023;
+        int l = 200;
+        int j = 100;
+        int cometYear = 0;
+        while (cometYear<thisYear+j) {cometYear = cometYear+79;
+            if (cometYear>thisYear-l)
+            System.out.println(cometYear);}
     }
 }
-
-
-
-
