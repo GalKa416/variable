@@ -14,6 +14,13 @@ public class Main {
              total = total + salary;
             i = i+1;
             System.out.println("Месяц  " +i+ ", сумма накоплений равна: "+total);}
+//task 2;
+        System.out.println("Задача 2");
+            int a = 0;
+    while (a<10) {
+        a=a+1; System.out.print (" "+ a+" " );}
+        System.out.println();
+        for (int c = 10; c>0;c=c-1) {System.out.print (" "+ c +" " );}
 
     }
 }
