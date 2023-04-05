@@ -40,17 +40,35 @@ public class Main {
         }
         //task 8;
         System.out.println("Задача 8");
-        int month;
-        int amountOfSavings;
-        for (month  = 1, amountOfSavings  = 29000; month <= 12; month = month + 1, amountOfSavings = amountOfSavings + 29000)
-        { System.out.println("Месяц " + month+ " сумма накоплений равна " + amountOfSavings + " рублей.");
-        }
-        //task 9;
-        System.out.println("Задача 8");
+        int total = 0;
 
-        for (month  = 1, amountOfSavings  = 29000; month <= 12; month = month + 1, amountOfSavings = (int) (amountOfSavings*1.1 + 29000))
-        { System.out.println("Месяц " + month+ " сумма накоплений равна " + amountOfSavings + " рублей.");
+        int amountOfSavings = 29000;
+        for (int z  = 0; z < 12; z++){
+            total = total + amountOfSavings;}
+
+                        System.out.println("сумма накоплений равна " + total + " рублей.");
+
+        //task 9;
+        System.out.println("Задача 9");
+        for (int z  = 0; z <= 12; z++){
+            total = total + total/100;
+            total = total + amountOfSavings;
+            System.out.println("Месяц " + z + " Итого " + total);
         }
+        System.out.println("сумма накоплений равна " + total + " рублей.");
+
+
+        //task 10;
+        System.out.println("Задача 10");
+        int a;
+        int b = 2;
+        for (int m  = 1; m <= 10;m++ ){
+            a=m*b;
+        System.out.println(b+" * "+m+" =" + a);}
+
+
+
+
     }
 }
 
