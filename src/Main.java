@@ -10,6 +10,9 @@ public class Main {
         }
 //task 2;
         System.out.println("Задача 2");
+        for(int i = 10; i <= 10 && i >=1; i = i - 1){
+            System.out.println(" Число " + i);
+        }
      }
 }
 
