@@ -33,6 +33,16 @@ public class Main {
         for (int i = 1; i <= 512; i = i * 2) {
             System.out.println(" Число " + i);
         }
+        //task 7;
+        System.out.println("Задача 7");
+        int month;
+        int amountOfSavings;
+        for (month  = 1, amountOfSavings  = 29000; month <= 12; month = month + 1, amountOfSavings = amountOfSavings + 29000)
+
+
+        {
+            System.out.println("Месяц " + month+ " сумма накоплений равна " + amountOfSavings + " рублей.");
+        }
     }
 }
 
