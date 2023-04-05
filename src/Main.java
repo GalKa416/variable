@@ -18,6 +18,11 @@ public class Main {
         for(int i = 0; i <= 17; i = i + 2){
             System.out.println(" Число " + i);
         }
+//task 4;
+        System.out.println("Задача 4");
+        for(int i = 1904; i <= 2096; i = i + 4){
+            System.out.println( + i + " год является високосным. ");
+        }
      }
 }
 
