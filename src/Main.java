@@ -71,5 +71,14 @@ public class Main {
             friday = friday+7;
             System.out.println("Сегодня пятница " + friday+ "-е число. Необходимо подготовить отчет");
         }
+        //task 8
+        System.out.println("Задача 8");
+        int thisYear = 2023;
+        int l = 200;
+        int j = 100;
+        int cometYear = 0;
+        while (cometYear<thisYear+j) {cometYear = cometYear+79;
+            if (cometYear>thisYear-l)
+            System.out.println(cometYear);}
     }
 }
