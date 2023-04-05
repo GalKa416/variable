@@ -31,8 +31,17 @@ public class Main {
            year = year +1;
            population = population + (fertility-mortality)*population/1000; System.out.println( "Год " + year+ " численность населения составляет "+population);
        }
+//task 4;
+        System.out.println("Задача 4");
+        int deposit = 15000;
+        int accumulation = 0;
+        int n = 0;
+        for (; accumulation < 12_000_000; n++) {
+            accumulation = accumulation + accumulation/100*7;
+            accumulation = accumulation + deposit;
 
-
+                System.out.println("Месяц " + n + " сумма " + accumulation);
+            }
     }
 }
 
