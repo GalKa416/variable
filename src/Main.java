@@ -98,4 +98,8 @@ public class Main {
         System.out.println(arbitrary[0]+ ", " + arbitrary[1]+", " +arbitrary[2]+", " +arbitrary[3]);
         //task 3;
         System.out.println("Задача 3");
+        System.out.println(array[2]+ ", " + array[1]+", " +array[0]);
+        System.out.println(array1[2]+ ", " + array1[1]+", " +array1[0]);
+        System.out.println(arbitrary[3]+ ", " + arbitrary[2]+", " +arbitrary[1]+", " +arbitrary[0]);
+
 }   }
