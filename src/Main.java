@@ -80,5 +80,22 @@ public class Main {
         while (cometYear<thisYear+j) {cometYear = cometYear+79;
             if (cometYear>thisYear-l)
             System.out.println(cometYear);}
-    }
-}
+
+        System.out.println("Массивы 1");
+        //task 1;
+        System.out.println("Задача 1");
+        int[] array = new int[3];
+        array[0] = 1;
+        array[1] = 2;
+        array[2] = 3;
+
+               double [] array1 = {1.57, 7.654, 9.986};
+        int [] arbitrary = {6, 2, 8, 3};
+        //task 2;
+        System.out.println("Задача 2");
+        System.out.println(array[0]+ ", " + array[1]+", " +array[2]);
+        System.out.println(array1[0]+ ", " + array1[1]+", " +array1[2]);
+        System.out.println(arbitrary[0]+ ", " + arbitrary[1]+", " +arbitrary[2]+", " +arbitrary[3]);
+        //task 3;
+        System.out.println("Задача 3");
+}   }
