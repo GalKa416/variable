@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -68,8 +70,8 @@ public class Main {
         System.out.println("Задача 7");
         int friday = 4;
         while (friday <= 31) {
-            friday = friday+7;
-            System.out.println("Сегодня пятница " + friday+ "-е число. Необходимо подготовить отчет");
+            friday = friday + 7;
+            System.out.println("Сегодня пятница " + friday + "-е число. Необходимо подготовить отчет");
         }
         //task 8
         System.out.println("Задача 8");
@@ -77,8 +79,48 @@ public class Main {
         int l = 200;
         int j = 100;
         int cometYear = 0;
-        while (cometYear<thisYear+j) {cometYear = cometYear+79;
-            if (cometYear>thisYear-l)
-            System.out.println(cometYear);}
-    }
-}
+        while (cometYear < thisYear + j) {
+            cometYear = cometYear + 79;
+            if (cometYear > thisYear - l)
+                System.out.println(cometYear);
+        }
+
+        System.out.println("Массивы 1");
+        //task 1;
+        System.out.println("Задача 1");
+        int[] array2 = new int[3];
+        array2[0] = 1;
+        array2[1] = 2;
+        array2[2] = 3;
+
+        double[] array1 = {1.57, 7.654, 9.986};
+        int[] arbitrary = {6, 2, 8, 3};
+        //task 2;
+        System.out.println("Задача 2");
+        System.out.println(array2[0] + ", " + array2[1] + ", " + array2[2]);
+        System.out.println(array1[0] + ", " + array1[1] + ", " + array1[2]);
+        System.out.println(arbitrary[0] + ", " + arbitrary[1] + ", " + arbitrary[2] + ", " + arbitrary[3]);
+        //task 3;
+        System.out.println("Задача 3");
+        System.out.println(array2[2] + ", " + array2[1] + ", " + array2[0]);
+        System.out.println(array1[2] + ", " + array1[1] + ", " + array1[0]);
+        System.out.println(arbitrary[3] + ", " + arbitrary[2] + ", " + arbitrary[1] + ", " + arbitrary[0]);
+        //task 4;
+        System.out.println("Задача 4");
+
+
+        for (int i1 = 0; i1 < array2.length; i1++)
+            if (array2[i1] % 2 != 0) {
+                array2[i1] = array2[i1] + 1;
+
+            }
+                System.out.println(Arrays.toString(array2));
+
+
+            }
+        }
+
+
+
+
+
